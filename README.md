@@ -1,11 +1,11 @@
 # Nisemono
 
-A dependency-free static website.
+A browser-only React application, deployed as static files to GitHub Pages.
 
-## Local preview
+## Local development
 
-Open `index.html` in a browser, or run any static file server from the project root.
+Run `npm start` to launch the development server.
 
 ## Deployment
 
-Pushing to `main` or `static-github-pages` deploys the repository root to the configured GitHub Pages site through GitHub Actions.
+Pushing to `main` or `static-github-pages` builds the application and publishes the `build/` output to GitHub Pages.

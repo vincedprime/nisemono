@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Merchant Copy';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/Merchant-Copy.ttf') format('truetype');
+}
+
+img {
+    max-width: 100%;
+}
+
+.invoice-box {
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    font-size: 13px;
+    line-height: 25px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+
+.invoice-box table td {
+    padding: 5px;
+    vertical-align: top;
+    padding-bottom: 5px;
+}
+
+.invoice-box table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.invoice-box table tr.top table td {
+    padding-bottom: 20px;
+}
+
+.invoice-box h1 {
+    font-size: 30px;
+    color: #b7b7b7;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.invoice-box p.images {
+    text-align: left;
+    margin-top: 0px;
+}
+
+.invoice-box p.infoleft {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.invoice-box p.inforight {
+    font-size: 18px;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.invoice-box p.innum {
+    font-size: 10px;
+    text-align: right;
+    color: #b7b7b7;
+    line-height: 18px;
+}
+
+.invoice-box p.innumright {
+    font-size: 10px;
+    text-align: right;
+    color: #b7b7b7;
+    margin-top: 0px;
+    line-height: 18px;
+}
+
+.invoice-box p.innumleft {
+    font-size: 10px;
+    text-align: left;
+    color: #b7b7b7;
+    margin-top: 0px;
+    line-height: 18px;
+}
+
+.invoice-box p.thanks {
+    font-size: 14px;
+    text-align: center;
+    color: #b7b7b7;
+    margin: 5px 5px 5px 5px;
+
+    line-height: normal;
+}
+
+.invoice-box table tr.information table td {
+    padding-bottom: 20px;
+}
+
+.invoice-box table tr.heading td {
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    text-align: left;
+}
+
+.invoice-box table tr.heading p {
+    font-size: 10px;
+    line-height: 11px;
+}
+
+.invoice-box table tr.details td {
+    padding-bottom: 10px;
+}
+
+.invoice-box table tr.item td {
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+}
+
+.invoice-box table tr.total td:nth-child(2) {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+}
+
+.bb {
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .invoice-box table tr.top table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .invoice-box table tr.information table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .invoice-box p.images {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .invoice-box p.infoleft {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .invoice-box p.inforight {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .invoice-box p.innum {
+        font-size: 10px;
+        text-align: center;
+        color: #b7b7b7;
+    }
+
+    .invoice-box p.innumright {
+        font-size: 10px;
+        text-align: center;
+        color: #b7b7b7;
+        margin-top: 0px;
+    }
+
+    .invoice-box p.innumleft {
+        font-size: 10px;
+        text-align: center;
+        color: #b7b7b7;
+        margin-top: 0px;
+    }
+}
+
+.invoice-box table td.sig-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.sig-image {
+    width: 186px;
+    height: 83px;
+    position: absolute;
+    top: 0px;
+    right: 40px;
+}
+
+.sig {
+    font-size: 12px;
+    color: #b7b7b7;
+    border-top: thin solid grey;
+    padding: 5px 80px 30px 80px;
+    margin: 100px 20px 100px 20px;
+}
+
+.amazon-invoice * {
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+.amazon-invoice h2 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+}
+.amazon-invoice .p, .amazon-invoice p {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+    margin: 0pt;
+}
+.amazon-invoice .s1 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 9pt;
+    vertical-align: 4pt;
+}
+.amazon-invoice .s2 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 11pt;
+}
+.amazon-invoice h1 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13.5pt;
+}
+.amazon-invoice .s3 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 13.5pt;
+}
+.amazon-invoice .s4 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 9pt;
+}
+.amazon-invoice .s5 {
+    color: black;
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 12.5pt;
+}
+.amazon-invoice .s6 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 9pt;
+}
+.amazon-invoice .s7 {
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12.5pt;
+}
+.amazon-invoice .s8 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11pt;
+}
+.amazon-invoice .s9 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 7pt;
+}
+.amazon-invoice .s10 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 7pt;
+}
+.amazon-invoice .s11 {
+    color: #7f7f7f;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 5.5pt;
+}
+.amazon-invoice table, .amazon-invoice tbody {
+    vertical-align: top;
+    overflow: visible;
+}
+
+
+@page {
+    size: auto;
+    margin: 0;
+}
+
+table.border {
+    border-collapse: collapse;
+}
+
+table.border, .border tr, .border td {
+    border: 2px solid #dddddd;
+}
