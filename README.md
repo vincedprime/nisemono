@@ -8,4 +8,4 @@ Open `index.html` in a browser, or run any static file server from the project r
 
 ## Deployment
 
-Pushing to `main` or `codex/static-github-pages` deploys the repository root to the configured GitHub Pages site through GitHub Actions.
+Pushing to `main` or `static-github-pages` deploys the repository root to the configured GitHub Pages site through GitHub Actions.
