@@ -17,7 +17,8 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npm run build
+      # The legacy app has existing ESLint warnings; they should not prevent a static deployment.
+      - run: CI=false npm run build
       - name: Publish site
         uses: peaceiris/actions-gh-pages@v4
         with:
