@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vincedprime.github.io/nisemono",
+  "homepage": "https://nisemono.vinyl-stack.com",
   "name": "react-fbp",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "PUBLIC_URL=/nisemono react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
