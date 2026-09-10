@@ -35,7 +35,7 @@ const UdemyCertificate = () => {
 
     // image draw
     const image = new Image();
-    image.src = "/assets/images/certificate-template.jpg";
+    image.src = `${process.env.PUBLIC_URL}/assets/images/certificate-template.jpg`;
 
     
     image.onload = () => {

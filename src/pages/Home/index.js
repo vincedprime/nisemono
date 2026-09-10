@@ -12,7 +12,7 @@ const Home = () => {
                             <Link to="/udemy-certificate">
                                 <div className="card border-secondary mb-3 p-3">
                                     <div className="card-body">
-                                        <img src='/assets/images/certificate.png' alt='Udemy Certificate' />
+                                        <img src={`${process.env.PUBLIC_URL}/assets/images/certificate.png`} alt='Udemy Certificate' />
                                         <p>Udemy Certificate</p>
                                     </div>
                                 </div>
@@ -22,7 +22,7 @@ const Home = () => {
                             <Link to="/amazon-invoice-form">
                                 <div className="card border-secondary mb-3 p-3">
                                     <div className="card-body">
-                                        <img src='/assets/images/invoice.png' alt='Amazon Invoice' />
+                                        <img src={`${process.env.PUBLIC_URL}/assets/images/invoice.png`} alt='Amazon Invoice' />
                                         <p>Amazon Invoice</p>
                                     </div>
                                 </div>
@@ -32,7 +32,7 @@ const Home = () => {
                             <Link to="/fuel-bill-form">
                                 <div className="card border-secondary mb-3 p-3">
                                     <div className="card-body">
-                                        <img src='/assets/images/fuel.png' alt='Fuel Bill' />
+                                        <img src={`${process.env.PUBLIC_URL}/assets/images/fuel.png`} alt='Fuel Bill' />
                                         <p>Fuel Bill</p>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@ const Home = () => {
                             <Link to="/wifi-form">
                                 <div className="card border-secondary mb-3 p-3">
                                     <div className="card-body">
-                                        <img src='/assets/images/wifi.png' alt='WiFi' />
+                                        <img src={`${process.env.PUBLIC_URL}/assets/images/wifi.png`} alt='WiFi' />
                                         <p>WiFi</p>
                                     </div>
                                 </div>

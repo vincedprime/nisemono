@@ -5,7 +5,7 @@ const AppLayout = ({ children }) => {
         <>
             <header className='p-3'>
                 <Link to="/">
-                    <img src="/assets/images/home.png" alt='home' width="48"/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/images/home.png`} alt='home' width="48"/>
                 </Link>
             </header>
             {children}
