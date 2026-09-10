@@ -141,7 +141,7 @@ const UdemyCertificate = () => {
     });
 
     const qs = new URLSearchParams(data).toString();
-    window.open(`./udemy-invoice?${qs}`, "_blank");
+    window.open(`${process.env.PUBLIC_URL}/udemy-invoice?${qs}`, "_blank");
   }
 
   return (

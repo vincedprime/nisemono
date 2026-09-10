@@ -7,7 +7,7 @@ const AmazonInvoiceForm = () => {
 
   const onSubmit = data => {
     const qs = new URLSearchParams(data).toString();
-    window.open(`./amazon-invoice?${qs}`, "_blank");
+    window.open(`${process.env.PUBLIC_URL}/amazon-invoice?${qs}`, "_blank");
   }
 
   return (

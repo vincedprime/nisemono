@@ -7,7 +7,7 @@ const WiFiForm = () => {
 
   const onSubmit = data => {
     const qs = new URLSearchParams(data).toString();
-    window.open(`./wifi-invoice?${qs}`, "_blank");
+    window.open(`${process.env.PUBLIC_URL}/wifi-invoice?${qs}`, "_blank");
   }
 
   return (
